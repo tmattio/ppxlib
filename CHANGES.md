@@ -1,6 +1,8 @@
 unreleased
 ------------------
 
+- Replace `Caml` with `Stdlib`. (#427, @ceastlund)
+
 - Adopt the OCaml Code of Conduct on the repo (#426, @pitag-ha)
 
 - Clean up misleading attribute hints when declared for proper context. (#425, @ceastlund)
