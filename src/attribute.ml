@@ -297,7 +297,7 @@ let declare_with_attr_loc name context pattern k =
   declare_with_all_args name context pattern (fun ~attr_loc ~name_loc:_ ->
       k ~attr_loc)
 
-module Attribute_table = Caml.Hashtbl.Make (struct
+module Attribute_table = Stdlib.Hashtbl.Make (struct
   type t = string loc
 
   let hash : t -> int = Hashtbl.hash
